@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="iso-8859-1">
+    <title>My web project</title>
+    <style>
+    
+  
+body {
+  background-color: #f0f0f5;
+  margin: 60px;
+  text-align:center;
+}
+
+/* Styles ALL h1s on your webpage*/
+
+h1 {
+  color: #000066;  
+}
+
+/* Styles ONLY the about-me section on the page */
+.about-me {
+  background-color: #ffcccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2 {
+  color: #000066;  
+}
+p{
+  color: #000066;  
+}
+img.storbild {width:90%; display:block;margin:auto;}
+.liten {
+  width: 300px;
+  display:block;
+  margin: auto;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; 
+}
+.liten {
+   width: 300px;
+   background: #f0f0f5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.container {
+   background: #eef1d3;
+   display: flex;
+   justify-content: center;
+ }
+
+
+    </style>
+  </head>
+  <body>
+  
+  <img src ="http://jobs.schibsted.com/wp-content/uploads/2016/06/PARAULES_3.svg" class="storbild"alt="våra varumärken"/>
+
+<h1>Här presenteras samarbeten inom Schibsted</h1>
+
+<p>Tanken är att vi ska dela de bästa samarbetena som görs inom Schibsted i Sverige mellan våra produkter</p>
+
+<!-- This is how you make a comment in HTML – if you want to write notes for yourself that don't show up on the webpage. -->
+
+<h2>Nedan presenteras de senaste samarbetet mellan våra varumärken</h2>
+<section class="sektion1">
+
+ <div class="container">
+ <div class= "liten1" >
+ <img src ="https://new.static.tv.nu/16451827" class="liten" alt="våra varumärken"/>
+<h2>TV.nu lyfter Aftonbladet TVs Oscarssatsning</h2>
+ <a href= "https://www.tv.nu/play/provider/aftonbladet">Läs mer här</a></p>
+</div>
+
+ <div class= "liten1" >
+<img src ="http://www.indico.se/wp-content/uploads/2013/08/www.blocket.se2827-300x210.png" class="liten" alt="blocket och lendo"/>
+<h2>Lendo i nytt samarbete med Blocket</h2>
+<a href= "http://www.indico.se/blocket-overlagsen-kop-saljmarknad-i-sverige/">Läs mer här</a></p>
+</div>
+
+<div class= "liten1" >
+<img src ="https://www.mobil.se/sites/mobil.se/files/styles/teaser-705/public/imported/660146.jpg?itok=2Kx0Urun" class="liten" alt="Omni"/>
+<h2>Omni i samarbete med Blocket</h2>
+<a href= "http://www.indico.se/blocket-overlagsen-kop-saljmarknad-i-sverige/">Läs mer här</a></p>
+</section>
+</div>
+
+<p class="puppy">Vill ni läsa mer om varje proxxx... This is another pharagraph that both have some <b>strong text</b>, some <i>italic</i> and even a <a href= "https://www.google.se">link to google.</a></p>
+
+
+
+  </body>
+</html>
